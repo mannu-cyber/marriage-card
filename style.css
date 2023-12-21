@@ -1,0 +1,303 @@
+ @font-face {
+    font-family: h;
+    src: url(./Kalam-Regular.ttf);
+ }
+ 
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+}
+    
+.main{
+    overflow: hidden;
+    position: relative;
+}
+
+
+.page1{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    background-image: url(./logo/wedding-background.498442cd.jpg);
+    background-position:center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+background-size: cover;
+}
+
+
+.content{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #0000009f;
+}
+
+
+.content h1{
+    font-family: h;
+    text-align: center;
+    margin-top:10.9vw ;
+    color: #fff;
+    font-size: 4vw;
+}
+
+.content h3{
+    color: #fff;
+    font-size: 1.5vw;
+    text-align: center;
+    margin-top: 1.4vw;
+}
+
+.time{
+    width:250px  ;
+    height:230px;
+    margin: 0 auto;
+    margin-top: 3.5vw;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.circle{
+    width: 90px;
+    height: 90px;
+    margin: 0 auto;
+    border: 6px solid #D9D9D9;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 1.23vw;
+}
+
+
+.day, .hour{
+    color: #8ADAB2;
+}
+
+
+ .minute{
+    color: #E4798A;
+}
+
+.second{
+    color: #AAA459;
+}
+
+.content button{
+    padding: .7vw 2vw;
+    font-size: 20px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 10px;
+    border: none;
+    color: #000000c9;
+}
+
+
+
+.page2{
+    width: 100vw;
+    height: 70vh;
+    position: relative;
+    /* background-color: #F8FAFC; */
+}
+
+
+.page2 h1{
+    text-align: center;
+    color: #EC4899;
+    margin-top: 3vw;
+    font-size: 2.9vw;
+    font-weight: 500;
+    font-family: h;
+}
+
+.group{
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 5vw;
+}
+
+.group .dulha img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+}
+
+
+.group .dulhan img{
+    display: block;
+    margin: 0 auto;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    position: relative;
+  
+}
+
+
+.group .heart{
+    width:110px ;
+    height: 110px;
+    margin-top: 7vw;
+}
+
+.group h2{
+    margin-top: 2vw;
+    font-family: h;
+text-align: center;
+
+    font-size: 1.7vw;
+}
+
+.group p{
+    font-family: h;
+    margin-top: 2vw;
+    text-align: center;
+line-height: 2;
+font-size: 1.4vw;
+}
+
+.page3{
+    width: 100vw;
+    height: 450px;
+    position: relative;
+    /* background-color: #F8FAFC; */
+}
+
+.page3 h1{
+    font-family: h;
+    text-align: center;
+    color: #F472B6;
+    font-weight: 500;
+    font-size: 3vw;
+}
+
+.card-container{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    margin-top: 2vw;
+    
+}
+
+.card{
+    height: 280px;
+    width: 361px;
+    background-color: #F472B6;
+    border-radius: 20px;
+}
+
+.img-container{
+    width: 80px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 50%;
+    margin-top: 1vw;
+}
+
+.card img{
+    width: 50px;
+    height: 50px;
+}
+
+.card h2{
+    text-align: center;
+    font-family: h;
+    margin-top: 1vw;
+    font-weight: 400;
+}
+
+.card hr{
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+    color: #fff;
+    height: 2px;
+   background-color: #fff;
+   border: none;
+   margin-bottom: 1.5vw;
+}
+
+.card p{
+    display: block;
+margin: 0 auto;
+/* text-align: center; */
+margin-left:6vw ;
+line-height: 2;
+font-family: h;
+}
+
+
+.page4{
+    background-color: #111827;
+    height: 280px;
+    width: 100vw;
+    padding-top: 2vw;
+}
+
+
+
+.page4  p{
+    color: #fff;
+    text-align: center;
+    font-family: h;
+    line-height: 2;
+    font-size: 1.3vw;
+}
+
+.page4 h5{
+    text-align: center;
+    color: #fff;
+    box-shadow:  6px 0 10px black;
+    margin:2vw 0;
+}
+
+.page4 .contact{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+margin: 0 auto;
+}
+
+.page5{
+    width: 100vw;
+    height: 100px;
+    background-color: #000;
+    color: #fff;
+    position: relative;
+   padding-top: 1vw;
+}
+
+.page5 .p{
+    text-transform: capitalize;
+    text-align: center;
+   
+    font-size: 1.2vw;
+
+}
+.page5 p{
+    text-align: center;
+}
