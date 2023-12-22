@@ -113,7 +113,7 @@ background-size: cover;
     width: 100vw;
     height: 70vh;
     position: relative;
-    opacity: 0;
+    opacity: 1;
     /* background-color: #F8FAFC; */
 }
 
